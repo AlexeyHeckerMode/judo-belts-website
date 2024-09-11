@@ -47,12 +47,12 @@ document.addEventListener("DOMContentLoaded", function() {
                 
                 // Apply the footer image if present
                 if (belt.footerImage) {
-                    footer.style.backgroundImage = `url(${belt.footerImage})`;
+                    footer.style.backgroundImage = `url('images/${belt.footerImage}')`;
                 }
 
                 // Update the belt image in the footer
                 const beltImage = document.getElementById('beltImage');
-                beltImage.src = belt.beltImage;
+                beltImage.src = `images/${belt.beltImage}`;
                 beltImage.alt = `${belt.name} Image`;
 
                 // Update the belt name
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         techniqueContainer.className = 'technique-container';  // Add class to each technique container
                         techniqueContainer.innerHTML = `
                             <a href="${technique.link}" class="technique-link">  <!-- Add class to the link -->
-                                <img src="${technique.image}" alt="${technique.name}" class="technique-image">
+                                <img src="images/${technique.image}" alt="${technique.name}" class="technique-image">
                                 <div class="technique-content">
                                     <p>${technique.name}</p>
                                 </div>
