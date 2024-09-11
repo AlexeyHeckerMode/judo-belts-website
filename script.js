@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 // Update the belt image in the footer
                 const beltImage = document.getElementById('beltImage');
-                beltImage.src = belt.beltImage;
+                beltImage.url = belt.beltImage;
                 beltImage.alt = `${belt.name} Image`;
 
                 // Update the belt name
