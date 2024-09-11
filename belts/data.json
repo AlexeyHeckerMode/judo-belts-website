@@ -4,7 +4,7 @@
             "id": "purple_belt",
             "name": "Purple Belt",
             "color": "#f5e6ff",
-            "footerImage": "/images/footers/purple.png",
+            "footerImage": "https://github.com/AlexeyHeckerMode/judo-belts-website/blob/main/images/footers/purple.png",
             "beltImage": "/images/belts/purple.png",
             "techniques": {
                 "Falls": [
