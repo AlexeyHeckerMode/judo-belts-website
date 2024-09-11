@@ -1,0 +1,433 @@
+{
+    "belts": [
+        {
+            "id": "purple_belt",
+            "name": "Purple Belt",
+            "color": "#f5e6ff",
+            "footerImage": "/images/footers/purple.png",
+            "beltImage": "/images/belts/purple.png",
+            "techniques": {
+                "Falls": [
+                    {
+                        "name": "Ushiro Ukemi - Backward Breakfall",
+                        "image": "/images/techniques/ushiro_ukemi/preview.png",
+                        "link": "/techniques/technique.html?ushiro_ukemi"
+                    }
+                ],
+                "Standing Exercises": [
+                    {
+                        "name": "Koshi Guruma - Hip Wheel",
+                        "image": "/images/techniques/koshi_guruma/preview.png",
+                        "link": "/techniques/technique.html?koshi_guruma"
+                    },
+                    {
+                        "name": "O Uchi Gari - Major Inner Reap",
+                        "image": "/images/techniques/o_uchi_gari/preview.png",
+                        "link": "/techniques/technique.html?o_uchi_gari"
+                    }
+                ],
+                "Pins": [
+                    {
+                        "name": "Kesa Gatame - Scarf Hold",
+                        "image": "/images/techniques/kesa_gatame/preview.png",
+                        "link": "/techniques/technique.html?kesa_gatame"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "purple_yellow_belt",
+            "name": "Purple-yellow Belt",
+            "color": "#fffcc4 #f5e6ff",
+            "footerImage": "/images/footers/purple_yellow.png",
+            "beltImage": "/images/belts/purple_yellow.png",
+            "techniques": {
+                "Falls": [
+                    {
+                        "name": "Zenpo Ukemi - Forward Roll",
+                        "image": "/images/techniques/zenpo_ukemi/preview.png",
+                        "link": "/techniques/technique.html?zenpo_ukemi"
+                    }
+                ],
+                "Standing Exercises": [
+                    {
+                        "name": "O Goshi - Major Hip Throw",
+                        "image": "/images/techniques/o_goshi/preview.png",
+                        "link": "/techniques/technique.html?o_goshi"
+                    },
+                    {
+                        "name": "Ippon Seoi Nage - One-Arm Shoulder Throw",
+                        "image": "/images/techniques/ippon_seoi_nage/preview.png",
+                        "link": "/techniques/technique.html?ippon_seoi_nage"
+                    }
+                ],
+                "Pins": [
+                    {
+                        "name": "Yoko Shiho Gatame - Side Four-Corner Hold",
+                        "image": "/images/techniques/yoko_shiho_gatame/preview.png",
+                        "link": "/techniques/technique.html?yoko_shiho_gatame"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "yellow_belt",
+            "name": "Yellow Belt",
+            "color": "#fffcc4",
+            "footerImage": "/images/footers/yellow.png",
+            "beltImage": "/images/belts/yellow.png",
+            "techniques": {
+                "Falls": [
+                    {
+                        "name": "Yoko Ukemi - Side Breakfall",
+                        "image": "/images/techniques/yoko_ukemi/preview.png",
+                        "link": "/techniques/technique.html?yoko_ukemi"
+                    }
+                ],
+                "Standing Exercises": [
+                    {
+                        "name": "O Soto Gari - Major Outer Reap",
+                        "image": "/images/techniques/o_soto_gari/preview.png",
+                        "link": "/techniques/technique.html?o_soto_gari"
+                    },
+                    {
+                        "name": "Uki Goshi - Floating Hip Throw",
+                        "image": "/images/techniques/uki_goshi/preview.png",
+                        "link": "/techniques/technique.html?uki_goshi"
+                    },
+                    {
+                        "name": "Morote Seoi Nage - Two-Arm Shoulder Throw",
+                        "image": "/images/techniques/morote_seoi_nage/preview.png",
+                        "link": "/techniques/technique.html?morote_seoi_nage"
+                    },
+                    {
+                        "name": "Eri Seoi Nage - Lapel Shoulder Throw",
+                        "image": "/images/techniques/eri_seoi_nage/preview.png",
+                        "link": "/techniques/technique.html?eri_seoi_nage"
+                    }
+                ],
+                "Pins": [
+                    {
+                        "name": "Kata Gatame - Shoulder Hold",
+                        "image": "/images/techniques/kata_gatame/preview.png",
+                        "link": "/techniques/technique.html?kata_gatame"
+                    },
+                    {
+                        "name": "Kami Shiho Gatame - Upper Four-Corner Hold",
+                        "image": "/images/techniques/kami_shiho_gatame/preview.png",
+                        "link": "/techniques/technique.html?kami_shiho_gatame"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "yellow_orange_belt",
+            "name": "Yellow-orange Belt",
+            "color": "#ffe3cc #fffcc4",
+            "footerImage": "/images/footers/yellow_orange.png",
+            "beltImage": "/images/belts/yellow_orange.png",
+            "techniques": {
+                "Falls": [],
+                "Standing Exercises": [
+                    {
+                        "name": "Tsuri Goshi - Lifting Hip Throw",
+                        "image": "/images/techniques/tsuri_goshi/preview.png",
+                        "link": "/techniques/technique.html?tsuri_goshi"
+                    },
+                    {
+                        "name": "Tai Otoshi - Body Drop",
+                        "image": "/images/techniques/tai_otoshi/preview.png",
+                        "link": "/techniques/technique.html?tai_otoshi"
+                    },
+                    {
+                        "name": "Ko Uchi Gari - Minor Inner Reap",
+                        "image": "/images/techniques/ko_uchi_gari/preview.png",
+                        "link": "/techniques/technique.html?ko_uchi_gari"
+                    },
+                    {
+                        "name": "Kubi Nage - Neck Throw",
+                        "image": "/images/techniques/kubi_nage/preview.png",
+                        "link": "/techniques/technique.html?kubi_nage"
+                    }
+                ],
+                "Pins": [
+                    {
+                        "name": "Kuzure Kesa Gatame - Scarf Hold (Modified)",
+                        "image": "/images/techniques/kuzure_kesa_gatame/preview.png",
+                        "link": "/techniques/technique.html?kuzure_kesa_gatame"
+                    },
+                    {
+                        "name": "Gyaku Kesa Gatame - Reverse Scarf Hold",
+                        "image": "/images/techniques/gyaku_kesa_gatame/preview.png",
+                        "link": "/techniques/technique.html?gyaku_kesa_gatame"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "orange_belt",
+            "name": "Orange Belt",
+            "color": "#ffe3cc",
+            "footerImage": "/images/footers/orange.png",
+            "beltImage": "/images/belts/orange.png",
+            "techniques": {
+                "Falls": [],
+                "Standing Exercises": [
+                    {
+                        "name": "Tsuri Komi Goshi - Lifting Pulling Hip Throw",
+                        "image": "/images/techniques/tsuri_komi_goshi/preview.png",
+                        "link": "/techniques/technique.html?tsuri_komi_goshi"
+                    },
+                    {
+                        "name": "Soto Makikomi - Outer Winding Throw",
+                        "image": "/images/techniques/soto_makikomi/preview.png",
+                        "link": "/techniques/technique.html?soto_makikomi"
+                    },
+                    {
+                        "name": "Harai Goshi - Sweeping Hip Throw",
+                        "image": "/images/techniques/harai_goshi/preview.png",
+                        "link": "/techniques/technique.html?harai_goshi"
+                    },
+                    {
+                        "name": "De Ashi Barai - Advanced Foot Sweep",
+                        "image": "/images/techniques/de_ashi_barai/preview.png",
+                        "link": "/techniques/technique.html?de_ashi_barai"
+                    },
+                    {
+                        "name": "Tomoe Nage - Circle Throw",
+                        "image": "/images/techniques/tomoe_nage/preview.png",
+                        "link": "/techniques/technique.html?tomoe_nage"
+                    }
+                ],
+                "Pins": [
+                    {
+                        "name": "Ushiro Kesa Gatame - Rear Scarf Hold",
+                        "image": "/images/techniques/ushiro_kesa_gatame/preview.png",
+                        "link": "/techniques/technique.html?ushiro_kesa_gatame"
+                    },
+                    {
+                        "name": "Tate Shiho Gatame - Straddle Hold",
+                        "image": "/images/techniques/tate_shiho_gatame/preview.png",
+                        "link": "/techniques/technique.html?tate_shiho_gatame"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "orange_green_belt",
+            "name": "Orange-green Belt",
+            "color": "#e6f2eb #ffe3cc",
+            "footerImage": "/images/footers/orange_green.png",
+            "beltImage": "/images/belts/orange_green.png",
+            "techniques": {
+                "Falls": [],
+                "Standing Exercises": [
+                    {
+                        "name": "Sumi Gaeshi - Corner Throw",
+                        "image": "/images/techniques/sumi_gaeshi/preview.png",
+                        "link": "/techniques/technique.html?sumi_gaeshi"
+                    },
+                    {
+                        "name": "Ko Soto Gari - Minor Outer Reap",
+                        "image": "/images/techniques/ko_soto_gari/preview.png",
+                        "link": "/techniques/technique.html?ko_soto_gari"
+                    },
+                    {
+                        "name": "Tsuri Komi Ashi Sazai - Lifting Pulling Foot Stop (Sazai)",
+                        "image": "/images/techniques/tsuri_komi_ashi_sazai/preview.png",
+                        "link": "/techniques/technique.html?tsuri_komi_ashi_sazai"
+                    },
+                    {
+                        "name": "Uchi Mata - Inner Thigh Throw",
+                        "image": "/images/techniques/uchi_mata/preview.png",
+                        "link": "/techniques/technique.html?uchi_mata"
+                    }
+                ],
+                "Pins": [
+                    {
+                        "name": "Mune Gatame - Chest Hold",
+                        "image": "/images/techniques/mune_gatame/preview.png",
+                        "link": "/techniques/technique.html?mune_gatame"
+                    },
+                    {
+                        "name": "Kuzure Yoko Shiho Gatame - Side Four-Corner Hold (Modified)",
+                        "image": "/images/techniques/kuzure_yoko_shiho_gatame/preview.png",
+                        "link": "/techniques/technique.html?kuzure_yoko_shiho_gatame"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "green_belt",
+            "name": "Green Belt",
+            "color": "#e6f2eb",
+            "footerImage": "/images/footers/green.png",
+            "beltImage": "/images/belts/green.png",
+            "techniques": {
+                "Falls": [],
+                "Standing Exercises": [
+                    {
+                        "name": "Hane Goshi - Springing Hip Throw",
+                        "image": "/images/techniques/hane_goshi/preview.png",
+                        "link": "/techniques/technique.html?hane_goshi"
+                    },
+                    {
+                        "name": "Morote Gari - Double Leg Takedown",
+                        "image": "/images/techniques/morote_gari/preview.png",
+                        "link": "/techniques/technique.html?morote_gari"
+                    },
+                    {
+                        "name": "Yoko Otoshi - Side Drop",
+                        "image": "/images/techniques/yoko_otoshi/preview.png",
+                        "link": "/techniques/technique.html?yoko_otoshi"
+                    },
+                    {
+                        "name": "Kata Guruma - Shoulder Wheel",
+                        "image": "/images/techniques/kata_guruma/preview.png",
+                        "link": "/techniques/technique.html?kata_guruma"
+                    },
+                    {
+                        "name": "Tani Otoshi - Valley Drop",
+                        "image": "/images/techniques/tani_otoshi/preview.png",
+                        "link": "/techniques/technique.html?tani_otoshi"
+                    }
+                ],
+                "Pins": [
+                    {
+                        "name": "Kuzure Kami Shiho Gatame - Upper Four-Corner Hold (Modified)",
+                        "image": "/images/techniques/kuzure_kami_shiho_gatame/preview.png",
+                        "link": "/techniques/technique.html?kuzure_kami_shiho_gatame"
+                    },
+                    {
+                        "name": "Mokure Kesa Gatame - Scarf Hold (Mokure)",
+                        "image": "/images/techniques/mokure_kesa_gatame/preview.png",
+                        "link": "/techniques/technique.html?mokure_kesa_gatame"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "green_blue_belt",
+            "name": "Green-blue Belt",
+            "color": "#e3e3ff #e6f2eb",
+            "footerImage": "/images/footers/green_blue.png",
+            "beltImage": "/images/belts/green_blue.png",
+            "techniques": {
+                "Falls": [],
+                "Standing Exercises": [
+                    {
+                        "name": "Ashi Guruma - Foot Wheel",
+                        "image": "/images/techniques/ashi_guruma/preview.png",
+                        "link": "/techniques/technique.html?ashi_guruma"
+                    },
+                    {
+                        "name": "O Guruma - Large Wheel",
+                        "image": "/images/techniques/o_guruma/preview.png",
+                        "link": "/techniques/technique.html?o_guruma"
+                    },
+                    {
+                        "name": "Hiza Guruma - Knee Wheel",
+                        "image": "/images/techniques/hiza_guruma/preview.png",
+                        "link": "/techniques/technique.html?hiza_guruma"
+                    },
+                    {
+                        "name": "O Soto Guruma - Large Outer Wheel",
+                        "image": "/images/techniques/o_soto_guruma/preview.png",
+                        "link": "/techniques/technique.html?o_soto_guruma"
+                    },
+                    {
+                        "name": "Ko Soto Gake - Minor Outer Hook",
+                        "image": "/images/techniques/ko_soto_gake/preview.png",
+                        "link": "/techniques/technique.html?ko_soto_gake"
+                    },
+                    {
+                        "name": "Okuri Ashi Barai - Accompanying Foot Sweep",
+                        "image": "/images/techniques/okuri_ashi_barai/preview.png",
+                        "link": "/techniques/technique.html?okuri_ashi_barai"
+                    },
+                    {
+                        "name": "Uki Waza - Floating Technique",
+                        "image": "/images/techniques/uki_waza/preview.png",
+                        "link": "/techniques/technique.html?uki_waza"
+                    }
+                ],
+                "Pins": [
+                    {
+                        "name": "Tate Senkaku Gatame - Triangular Stranglehold",
+                        "image": "/images/techniques/tate_senkaku_gatame/preview.png",
+                        "link": "/techniques/technique.html?tate_senkaku_gatame"
+                    },
+                    {
+                        "name": "Kami Senkaku Gatame - Upper Triangular Stranglehold",
+                        "image": "/images/techniques/kami_senkaku_gatame/preview.png",
+                        "link": "/techniques/technique.html?kami_senkaku_gatame"
+                    },
+                    {
+                        "name": "Kesa Gatame - Scarf Hold",
+                        "image": "/images/techniques/kesa_gatame/preview.png",
+                        "link": "/techniques/technique.html?kesa_gatame"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "blue_belt",
+            "name": "Blue Belt",
+            "color": "#e3e3ff",
+            "footerImage": "/images/footers/blue.png",
+            "beltImage": "/images/belts/blue.png",
+            "techniques": {
+                "Falls": [],
+                "Standing Exercises": [
+                    {
+                        "name": "Sumi Gaeshi - Corner Throw",
+                        "image": "/images/techniques/sumi_gaeshi/preview.png",
+                        "link": "/techniques/technique.html?sumi_gaeshi"
+                    },
+                    {
+                        "name": "Te Guruma - Hand Wheel",
+                        "image": "/images/techniques/te_guruma/preview.png",
+                        "link": "/techniques/technique.html?te_guruma"
+                    },
+                    {
+                        "name": "Ushiro Goshi - Rear Hip Throw",
+                        "image": "/images/techniques/ushiro_goshi/preview.png",
+                        "link": "/techniques/technique.html?ushiro_goshi"
+                    },
+                    {
+                        "name": "Sokuinage - Scoop Throw",
+                        "image": "/images/techniques/sokuinage/preview.png",
+                        "link": "/techniques/technique.html?sokuinage"
+                    },
+                    {
+                        "name": "Ura Nage - Back Throw",
+                        "image": "/images/techniques/ura_nage/preview.png",
+                        "link": "/techniques/technique.html?ura_nage"
+                    },
+                    {
+                        "name": "Yoko Gake - Side Hook",
+                        "image": "/images/techniques/yoko_gake/preview.png",
+                        "link": "/techniques/technique.html?yoko_gake"
+                    },
+                    {
+                        "name": "Utsuri Goshi - Changing Hip Throw",
+                        "image": "/images/techniques/utsuri_goshi/preview.png",
+                        "link": "/techniques/technique.html?utsuri_goshi"
+                    }
+                ],
+                "Pins": [
+                    {
+                        "name": "Yoko Gatame - Side Hold",
+                        "image": "/images/techniques/yoko_gatame/preview.png",
+                        "link": "/techniques/technique.html?yoko_gatame"
+                    },
+                    {
+                        "name": "Uki Gatame - Floating Hold",
+                        "image": "/images/techniques/uki_gatame/preview.png",
+                        "link": "/techniques/technique.html?uki_gatame"
+                    }
+                ]
+            }
+        }
+    ]
+}

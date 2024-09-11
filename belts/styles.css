@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f8f8f8;
+}
+
+footer.first-color {
+    background-size: cover; /* Ensures the image covers the entire footer */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center 40%; /* Positions the image 20% up from the bottom */
+    position: relative; /* Allows positioning of the overlay */
+    padding: 20px;
+    /* border-bottom: 1px solid #bc00ff; 1px deep purple border on the bottom */
+}
+
+footer.first-color::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(175, 55, 255, 0.856); Light purple with transparency */
+    z-index: 1; /* Places the overlay above the background image */
+}
+
+footer.second-color {
+    background-size: cover; /* Ensures the image covers the entire footer */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center 40%; /* Positions the image 20% up from the bottom */
+    position: relative; /* Allows positioning of the overlay */
+    padding: 20px;
+    /* border-bottom: 1px solid #bc00ff; 1px deep purple border on the bottom */
+}
+
+footer.second-color::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background: linear-gradient(45deg, #fffcc4, #f5e6ff);     */
+    z-index: 1; /* Places the overlay above the background image */
+}
+
+footer > * {
+    position: relative;
+    z-index: 2; /* Places the content above the overlay */
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    margin: 15px;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.belt {
+    width: 30vw; /* Use viewport width to make the image responsive */
+    max-width: 200px; /* Set a maximum width */
+    min-width: 100px; /* Set a minimum width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.technique-container {
+    position: relative;
+    width: 75%; /* Container takes up 75% of the screen width */
+    max-width: 600px; /* Optional: set a max width if needed */
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.technique-container img {
+    width: 100%; /* The image width will be 100% of its container's width */
+    height: auto; /* The height adjusts automatically to maintain the aspect ratio */
+    display: block; /* Removes any bottom space under the image */
+    border-radius: inherit; /* Optional: If you want the image to have the same border-radius as the container */
+}
+
+.technique-container a {
+    color: black;
+    text-decoration: none;
+}
+/* .technique-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 60, 255, 0.55); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+} */

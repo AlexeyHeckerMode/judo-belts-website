@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f8f8f8;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.belt-container {
+    width: 70%;
+    max-width: 400px;
+    margin: 12.5px 0;
+}
+
+.belt-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 70px 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    transition: transform 0.2s;
+    position: relative;
+}
+
+.belt-button img {
+    width: 45%;
+    /* Center the image using flex properties */
+    align-self: center;
+}
+
+/* Individual belt colors */
+.purple {
+    background-color: #f5e6ff; /* Light purple */
+    border: 1px solid #bc00ff; /* Deep purple */
+}
+
+.yellow {
+    background-color: #fffcc4; /* Light yellow */
+    border: 1px solid #c6b800; /* Deep yellow */
+}
+
+.orange {
+    background-color: #ffe3cc; /* Light orange */
+    border: 1px solid #ee7605; /* Deep orange */
+}
+
+.green {
+    background-color: #e6f2eb; /* Light green */
+    border: 1px solid #145125; /* Deep green */
+}
+
+.blue {
+    background-color: #e3e3ff; /* Light blue */
+    border: 1px solid #0907e4; /* Deep blue */
+}
+
+/* Gradient belt colors */
+.yellow-purple {
+    background: linear-gradient(45deg, #fffcc4, #f5e6ff); /* Light yellow to light purple */
+    border: 1px solid;
+    border-color: #c6b800 #bc00ff; /* Deep yellow to deep purple */
+}
+
+.orange-yellow {
+    background: linear-gradient(45deg, #ffe3cc, #fffcc4); /* Light orange to light yellow */
+    border: 1px solid;
+    border-color: #ee7605 #c6b800; /* Deep orange to deep yellow */
+}
+
+.green-orange {
+    background: linear-gradient(45deg, #e6f2eb, #ffe3cc); /* Light green to light orange */
+    border: 1px solid;
+    border-color: #145125 #ee7605; /* Deep green to deep orange */
+}
+
+.blue-green {
+    background: linear-gradient(45deg, #e3e3ff, #e6f2eb); /* Light blue to light green */
+    border: 1px solid;
+    border-color: #0907e4 #145125; /* Deep blue to deep green */
+}
